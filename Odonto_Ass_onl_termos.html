@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>((r) => {
+          setTimeout(r);
+        })(() => {
+  const { markmap, mm } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute("style", "position:absolute;bottom:20px;right:20px");
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"Odontologia","children":[{"content":"Coordena&#xe7;&#xe3;o","children":[{"content":"Elabora&#xe7;&#xe3;o do Termos","children":[{"content":"Termo de aceite inicial de assinatura online de  or&#xe7;amento (Termo 01)","children":[],"payload":{"tag":"li","lines":"9,10"}},{"content":"<a href=\"http://odontologiateste.abepom.com.br/novo/imprimir_orcamento_assinar.asp?key=qb869\">Termo de execu&#xe7;&#xe3;o de or&#xe7;amento e pagamento- assinatura online (Termo 02)</a>","children":[],"payload":{"tag":"li","lines":"10,11"}},{"content":"<a href=\"https://docs.google.com/document/d/11lCUpvwVCvTGA8gJovibuzVLIMeHqnJ1/edit?tab=t.0\">Termo de Exodontia de Dentes Dec&#xed;duos</a>","children":[],"payload":{"tag":"li","lines":"11,12"}},{"content":"<a href=\"https://docs.google.com/document/d/1P1cdAeLj32kDy0JvSzpN9g0gjO4QLHbu/edit?tab=t.0\">Termo de Protese Parcial Removivel</a>","children":[],"payload":{"tag":"li","lines":"12,13"}},{"content":"<a href=\"https://docs.google.com/document/d/1SMpN1Wk5n6js2XfKq-puq2jbE0_43HLv/edit?tab=t.0\">Termo de Exodontia Dentes Inclusos Impactados</a>","children":[],"payload":{"tag":"li","lines":"13,14"}},{"content":"<a href=\"https://docs.google.com/document/d/19eABFr0Zv1AVOUiOKiKwmTMijbj20tjG/edit?tab=t.0\">Termo de protese total</a>","children":[],"payload":{"tag":"li","lines":"14,15"}},{"content":"<a href=\"https://docs.google.com/document/d/1aMv7LLOcpzmuZu7VrPLqEAaOLYdQibb9/edit?tab=t.0\">Termo de Lente de Contato - Faceta</a>","children":[],"payload":{"tag":"li","lines":"15,16"}},{"content":"<a href=\"https://docs.google.com/document/d/18Mtmq0XHc_Ht60u6D8Qx_NCLg6qF7hDi/edit?tab=t.0\">Termo de Endodontia</a>","children":[],"payload":{"tag":"li","lines":"16,17"}}],"payload":{"tag":"li","lines":"8,17"}},{"content":"Configura&#xe7;&#xe3;o do termo","children":[{"content":"Atribui&#xe7;&#xe3;o do termo ao procedimento  (<em>Intranet</em>)","children":[],"payload":{"tag":"li","lines":"18,19"}}],"payload":{"tag":"li","lines":"17,19"}}],"payload":{"tag":"h2","lines":"7,8"}},{"content":"Consult&#xf3;rio Odontol&#xf3;gico","children":[{"content":"Cria&#xe7;&#xe3;o de Or&#xe7;amento","children":[{"content":"Valida&#xe7;&#xf5;es","children":[{"content":"Dados de contato","children":[{"content":"E-mail e Telefone","children":[{"content":"Envio Termo 01","children":[],"payload":{"tag":"li","lines":"24,25"}}],"payload":{"tag":"h6","lines":"23,24"}}],"payload":{"tag":"h5","lines":"22,23"}}],"payload":{"tag":"h4","lines":"21,22"}}],"payload":{"tag":"h3","lines":"20,21"}},{"content":"Itens do Or&#xe7;amento","children":[{"content":"Libera&#xe7;&#xe3;o do Or&#xe7;amento","children":[{"content":"Situa&#xe7;&#xe3;o 01","children":[{"content":"Termos Gerados","children":[],"payload":{"tag":"h6","lines":"28,29"}},{"content":"Envio Whatts (Termo 02)","children":[{"content":"Verifica&#xe7;&#xe3;o do or&#xe7;amento e termos","children":[],"payload":{"tag":"li","lines":"30,31"}},{"content":"Aceite do termo","children":[{"content":"API DocManager","children":[{"content":"Gerar PDF","children":[],"payload":{"tag":"li","lines":"33,34"}},{"content":"Armazena na Amazon","children":[],"payload":{"tag":"li","lines":"34,35"}},{"content":"Envia link ao associado","children":[],"payload":{"tag":"li","lines":"35,36"}}],"payload":{"tag":"li","lines":"32,36"}},{"content":"Libera&#xe7;&#xe3;o o or&#xe7;amento","children":[{"content":"Folha","children":[],"payload":{"tag":"li","lines":"37,38"}},{"content":"Pix","children":[],"payload":{"tag":"li","lines":"38,39"}},{"content":"Outros","children":[],"payload":{"tag":"li","lines":"39,40"}}],"payload":{"tag":"li","lines":"36,40"}}],"payload":{"tag":"li","lines":"31,40"}}],"payload":{"tag":"h6","lines":"29,30"}}],"payload":{"tag":"h5","lines":"27,28"}},{"content":"Situa&#xe7;&#xe3;o 02","children":[{"content":"Impress&#xe3;o com os termos para assinatura presencial","children":[],"payload":{"tag":"li","lines":"41,42"}},{"content":"Digitaliza&#xe7;&#xe3;o e inclus&#xe3;o no sistema (Administrativo)","children":[],"payload":{"tag":"li","lines":"42,43"}},{"content":"Libera o Or&#xe7;amento (Administrativo)","children":[{"content":"Folha","children":[],"payload":{"tag":"li","lines":"44,45"}},{"content":"Pix","children":[],"payload":{"tag":"li","lines":"45,46"}},{"content":"Outros","children":[],"payload":{"tag":"li","lines":"46,47"}}],"payload":{"tag":"li","lines":"43,47"}}],"payload":{"tag":"h5","lines":"40,41"}}],"payload":{"tag":"h4","lines":"26,27"}},{"content":"Adiamento da Libera&#xe7;&#xe3;o","children":[{"content":"Impress&#xe3;o para an&#xe1;lise","children":[],"payload":{"tag":"li","lines":"48,49"}},{"content":"Impress&#xe3;o para an&#xe1;lise com os termos","children":[],"payload":{"tag":"li","lines":"49,50"}}],"payload":{"tag":"h4","lines":"47,48"}}],"payload":{"tag":"h3","lines":"25,26"}}],"payload":{"tag":"h2","lines":"19,20"}},{"content":"Administrativo","children":[{"content":"Gerenciamento de or&#xe7;amentos impressos","children":[],"payload":{"tag":"li","lines":"51,52"}},{"content":"Pagamentos na clinipom e coleta da assinatura online","children":[],"payload":{"tag":"li","lines":"52,53"}},{"content":"Quando folha, Adm a coleta da assinatura online","children":[],"payload":{"tag":"li","lines":"53,54"}},{"content":"Atualiza&#xe7;&#xe3;o dos dados de contato","children":[],"payload":{"tag":"li","lines":"54,55"}},{"content":"Envio Whatts com os termos","children":[],"payload":{"tag":"li","lines":"55,56"}}],"payload":{"tag":"h2","lines":"50,51"}}]},{"colorFreezeLevel":2})</script>
+</body>
+</html>
