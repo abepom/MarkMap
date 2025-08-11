@@ -6,7 +6,7 @@ markmap:
 
 
 ## Coordenação
- - Elaboração do Termos
+ - Elaboração dos Termos
      - Termo de aceite inicial de assinatura online de  orçamento (Termo 01)
      - [Termo de execução de orçamento e pagamento- assinatura online (Termo 02)](http://odontologiateste.abepom.com.br/novo/imprimir_orcamento_assinar.asp?key=qb869)
      - [Termo de Exodontia de Dentes Decíduos](https://docs.google.com/document/d/11lCUpvwVCvTGA8gJovibuzVLIMeHqnJ1/edit?tab=t.0)
@@ -28,29 +28,26 @@ markmap:
    ##### Situação 01 
    ###### Termos Gerados
    ###### Envio Whatts (Termo 02)
-   - Verificação do orçamento e termos
-   - Aceite do termo
-     - API DocManager 
-       - Gerar PDF 
-       - Armazena na Amazon
-       - Envia link ao associado
-     - Liberação o orçamento
-       - Folha
-       - Pix
-       - Outros   
+   - [Visualização do orçamento e termos](http://odontologiateste.abepom.com.br/novo/imprimir_orcamento_assinar.asp?key=yxx460)
+     - [Aceite do termo](http://odontologiateste.abepom.com.br/novo/imprimir_orcamento_assinar.asp?Key=yxy369)
+   - Liberação do orçamento
+       - Folha / Pix / Outros
+         - API DocManager 
+           - Gerar PDF 
+           - Armazena na Amazon
+           - Envia link ao associado   
    ##### Situação 02 
    - Impressão com os termos para assinatura presencial
    - Digitalização e inclusão no sistema (Administrativo)
-   - Libera o Orçamento (Administrativo)
-       - Folha
-       - Pix
-       - Outros      
+   - Liberação do orçamento (Administrativo)
+       - Folha/Pix/Outros      
 #### Adiamento da Liberação
   - Impressão para análise
   - Impressão para análise com os termos 
 ## Administrativo
 - Gerenciamento de orçamentos impressos
-- Pagamentos na clinipom e coleta da assinatura online 
-- Quando folha, Adm a coleta da assinatura online
+- Definição Pgt e coleta da assinatura online 
 - Atualização dos dados de contato
-- Envio Whatts com os termos 
+- Envio Whatts com os termos
+- Liberação do orçamento
+   - API DocManager   
